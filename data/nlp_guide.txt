@@ -1,0 +1,29 @@
+Natural Language Processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret, and generate human language.
+
+Tokenization is the process of breaking text into individual words or sentences called tokens. For example "I love NLP" becomes ["I", "love", "NLP"].
+
+Stop Words are common words like "the", "is", "at" that are removed during text processing because they carry little meaning.
+
+Stemming reduces words to their root form by removing suffixes. For example "running" becomes "run" and "cats" becomes "cat".
+
+Lemmatization is similar to stemming but uses vocabulary and grammar rules to get the correct base form. "better" becomes "good" with lemmatization.
+
+Bag of Words is a text representation technique that counts word frequency in a document ignoring grammar and word order.
+
+TF-IDF stands for Term Frequency Inverse Document Frequency. It measures how important a word is in a document relative to a collection of documents.
+
+Word2Vec is a technique that represents words as dense vectors where similar words have similar vectors. It captures semantic relationships between words.
+
+GloVe stands for Global Vectors for Word Representation. It combines global word co-occurrence statistics with local context to create word embeddings.
+
+BERT stands for Bidirectional Encoder Representations from Transformers. It reads text in both directions to understand context better than previous models.
+
+Transformers are deep learning models that use self-attention mechanisms to process sequential data. They are the foundation of modern NLP models like GPT and BERT.
+
+Sentiment Analysis is the task of identifying whether text expresses positive, negative, or neutral sentiment. Used in social media monitoring and product reviews.
+
+Text Classification assigns predefined categories to text documents. Examples include spam detection, topic classification, and language detection.
+
+Named Entity Recognition (NER) identifies and classifies named entities in text such as person names, organizations, locations, and dates.
+
+Machine Translation automatically converts text from one language to another. Examples include Google Translate and DeepL.
