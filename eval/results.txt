@@ -1,0 +1,50 @@
+PROJECT 13 - EVALUATION RESULTS
+============================================================
+
+Q1: What is Machine Learning?
+Answer: Machine Learning is a branch of Artificial Intelligence that enables computers to learn from data an...
+Safe: True | Confidence: 10.17 | Hallucination: entailment | Keyword Score: 1.0
+----------------------------------------
+Q2: What is supervised learning?
+Answer: Supervised Learning is a type of Machine Learning.
+Safe: True | Confidence: 3.14 | Hallucination: entailment | Keyword Score: 0.33
+----------------------------------------
+Q3: What is overfitting?
+Answer: I found conflicting information. Please verify with the source documents directly.
+Safe: False | Confidence: 5.46 | Hallucination: contradiction detected | Keyword Score: 0.0
+----------------------------------------
+Q4: What is the difference between regression and classification?
+Answer: I found conflicting information. Please verify with the source documents directly.
+Safe: False | Confidence: 2.58 | Hallucination: contradiction detected | Keyword Score: 0.0
+----------------------------------------
+Q5: What is Random Forest?
+Answer: Random Forest is a popular algorithm.
+Safe: True | Confidence: 3.64 | Hallucination: entailment | Keyword Score: 0.67
+----------------------------------------
+Q6: What is cross validation?
+Answer: Cross Validation is mentioned in both Source 1 and Source 2. 
+
+Source 1: "Standardization, Cross Val...
+Safe: True | Confidence: 2.27 | Hallucination: entailment | Keyword Score: 0.67
+----------------------------------------
+Q7: What is feature engineering?
+Answer: Feature engineering is the process of designing and selecting relevant features for a machine learni...
+Safe: True | Confidence: 0.72 | Hallucination: entailment | Keyword Score: 1.0
+----------------------------------------
+Q8: What is normalization?
+Answer: I don't have enough relevant information to answer this question confidently.
+Safe: False | Confidence: -5.11 | Hallucination: skipped - low confidence | Keyword Score: 0.0
+----------------------------------------
+Q9: What is gradient descent?
+Answer: I don't have enough relevant information to answer this question confidently.
+Safe: False | Confidence: -10.99 | Hallucination: skipped - low confidence | Keyword Score: 0.0
+----------------------------------------
+Q10: What is the capital of France?
+Answer: I don't have enough relevant information to answer this question confidently.
+Safe: False | Confidence: -11.07 | Hallucination: skipped - low confidence | Keyword Score: 0.0
+----------------------------------------
+
+SUMMARY
+Safe answers: 5/10
+Entailment: 5/10
+Avg keyword score: 0.37
