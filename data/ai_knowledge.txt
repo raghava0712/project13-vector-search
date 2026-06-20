@@ -1,0 +1,15 @@
+Machine Learning is a subset of artificial intelligence that enables systems to learn from data without being explicitly programmed.
+
+Deep Learning is a subset of machine learning that uses neural networks with many layers to learn complex patterns in large amounts of data.
+
+Natural Language Processing enables computers to understand, interpret, and generate human language. Applications include chatbots, translation, and sentiment analysis.
+
+Text embeddings are numerical representations of text as vectors. Similar texts have similar vectors allowing semantic search.
+
+Vector databases like ChromaDB store embeddings and allow fast similarity search across documents.
+
+RAG stands for Retrieval Augmented Generation. It combines a retrieval system with a language model to generate grounded answers.
+
+Hallucination occurs when an AI model generates information that sounds confident but is factually incorrect or not supported by any source.
+
+Data pipelines are automated workflows that move and transform data from source systems to destination systems through extraction transformation and loading.
