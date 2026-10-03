@@ -1,8 +1,11 @@
 from sentence_transformers import CrossEncoder
-
+import torch
 # Load reranker model once (downloads ~80MB first time)
 print("Loading reranker model...")
-reranker_model = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
+reranker_model = CrossEncoder(
+    "cross-encoder/ms-marco-MiniLM-L6-v2",
+    activation_fn=torch.nn.Sigmoid()
+)
 print("Reranker model loaded!")
 
 
