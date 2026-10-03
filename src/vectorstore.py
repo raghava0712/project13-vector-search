@@ -15,9 +15,13 @@ def build_vectorstore(chunks):
     Converts chunks to embeddings and stores them in ChromaDB.
     Returns the collection object for later searching.
     """
-    # Create a fresh collection
-    collection = chroma_client.get_or_create_collection(name="project13")
+    # Create a completely fresh collection
+    try:
+        chroma_client.delete_collection(name="project13")
+    except Exception:
+        pass
 
+    collection = chroma_client.create_collection(name="project13")
     texts = [chunk["text"] for chunk in chunks]
     metadatas = [{"source": chunk["source"], "page": chunk["page"], "chunk_num": chunk["chunk_num"]} for chunk in chunks]
     ids = [f"chunk_{i}" for i in range(len(chunks))]
